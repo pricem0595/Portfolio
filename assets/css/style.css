@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+}
+header {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: darkgrey;
+	height: 5rem;
+}
+
+header h1 {
+	position: relative;
+	background-color: aqua;
+	padding-left: 5rem;
+	display: inline;
+	top: 1rem;
+}
+
+header span{
+	font-weight: bold;
+	font-size: 36px;
+}
+
+header nav {
+	list-style-type: none;
+	text-align: end;
+	margin-right: 5rem;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+}
+
+main {
+	width: 75%;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#about-me {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;
+}
+
+#work {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;	
+}
+
+#contact-me {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;	
+}
